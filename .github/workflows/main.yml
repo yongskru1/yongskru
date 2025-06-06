@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Mengunduh n Memasang Esensial
         run: |
-          Invoke-WebRequest -Uri "https://github.com/yongskru/machine/raw/main/Downloads.bat" -OutFile "Downloads.bat"
+          Invoke-WebRequest -Uri "https://github.com/yongskru1/machine/raw/main/Downloads.bat" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
 
       - name: Sudah siap
